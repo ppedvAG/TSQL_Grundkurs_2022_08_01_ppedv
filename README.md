@@ -1,6 +1,6 @@
 # PPKURS - SQL Abfragesprache Datenbankdesign
 
-TSQL Grundkurs vom 11.07.2022 bis 13.07.2022. Trainer: Lukas Kern (LukasK@ppedv.de) 
+TSQL Grundkurs vom 01.08.2022 bis 03.08.2022. Trainer: Lukas Kern (LukasK@ppedv.de) 
 
 ## M001 | Getting Started-SQL-Server und SSMS
 
