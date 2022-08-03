@@ -12,7 +12,7 @@ SELECT * FROM Customers WHERE Country LIKE '%A%A%'; --Alle Länder die 2 A's in d
 
 SELECT * FROM Customers WHERE City LIKE '_ünchen'; --Underscore: Genau ein Zeichen suchen
 
-SELECT * FROM Customers WHERE PostalCode LIKE '____'; --Genau View beliebige Zeichen suchen
+SELECT * FROM Customers WHERE PostalCode LIKE '____'; --Genau Vier beliebige Zeichen suchen
 
 SELECT * FROM Customers WHERE PostalCode LIKE '1____'; --Alle Postleitzahlen finden die mit 1 anfangen und dann 4 beliebige Zeichen haben
 
