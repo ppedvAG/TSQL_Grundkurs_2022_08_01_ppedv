@@ -78,6 +78,13 @@ HAVING SUM(Freight) > 1000 --Hier SUM statt COUNT
 ORDER BY Summe DESC; --Alle Kunden die mindestens 1000$ Frachtkosten verursacht haben
 
 SELECT
+CustomerID,
+COUNT(*) AS Anz
+FROM Orders
+GROUP BY CustomerID
+ORDER BY Anz;
+
+SELECT
 c.CustomerID,
 c.ContactName, --Über JOIN ContactName holen
 COUNT(o.OrderID) AS AnzBestellungen
